@@ -477,11 +477,10 @@ max-width: 120%;
 
 @media screen and (max-width: 768px) {
     #img-button{
-        top: 30%;
+        top: 20%;
         padding-bottom: 12px;
         padding-top: 8px;
     }
-
 
     #img-title{
     position: absolute;
@@ -544,12 +543,21 @@ max-width: 120%;
         padding: 10px;
         margin-bottom: 100px;
         margin-top: 0px;
+        border: 2px solid red;
+    }
+    .about-description {
+        border: 1px solid blue;
     }
     #about-text-2{
         font-size: 14px;
+        border: 1px solid blue;
     }
    .about-image{
-    width: 50%;
+    width: 100%;
+    border: 2px solid blue;
+   }
+   #about-img{
+    width: 100%;
    }
     .map {
         position: static; /* Change position to static for better responsiveness */
