@@ -121,6 +121,9 @@ margin-left: 50px;}
         padding-top: 0px;
         
     }
+    h2{
+        font-size: 18px;
+    }
 }
 /* ------------------------- BUTTONS */
 .button-green{
@@ -514,9 +517,6 @@ max-width: 120%;
         top: 1500px; /* Adjust the final position where the leaf should fall to */
     }
 }
-.about-image {
-    width: 100%;
-}
 
 @media screen and (max-width: 768px) {
     .about {
@@ -530,7 +530,7 @@ max-width: 120%;
         font-size: 14px;
     }
    .about-image{
-    width: 50%;
+    display:none;
    }
     .map {
         position: static; /* Change position to static for better responsiveness */
@@ -1121,18 +1121,13 @@ table {
   .hidden {
     display: none;
   }
-#attractions-footer{
-    padding-top: 20px;
-    margin-top: 50px;
-    background-color: #BFC2B4;
-}
 
 .card-page {
     width: 372px;
     height: 768px;
     background: #C2B398;
     border-radius: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -1163,6 +1158,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;}
+
 
 @media screen and (max-width: 768px) {
     .card-page{
