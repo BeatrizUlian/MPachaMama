@@ -530,6 +530,15 @@ max-width: 120%;
     left: 50px; /* Adjust the left position as needed */
 }
 
+#about-text{
+    margin-bottom: 40px;
+    padding: 50px;
+}
+#about-text-2{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
 @keyframes fallAnimation {
     to {
         top: 1500px; /* Adjust the final position where the leaf should fall to */
@@ -547,10 +556,15 @@ max-width: 120%;
     }
     .about-description {
         border: 1px solid blue;
+
+    }
+    #about-text{
+        border: 2px solid purple;
+        padding: 10px;
     }
     #about-text-2{
         font-size: 14px;
-        border: 1px solid blue;
+        border: 1px solid yellow;
     }
    .about-image{
     width: 100%;
@@ -567,10 +581,11 @@ max-width: 120%;
 
     /* Adjust the width and height for mobile screens */
     .map iframe {
-        margin-left: 50px;
+        margin-left: 20px;
         margin-bottom: 100px;
-        width: 75%; /* Set the iframe width to 100% of its container */
-        height: 300px; /* Adjust the desired height for mobile screens */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 90%; /* Set the iframe width to 100% of its container */
+        height: 200px; /* Adjust the desired height for mobile screens */
     }
 }
 
@@ -836,14 +851,6 @@ footer{
     gap: 500px;
 }
 
-#about-text{
-    margin-bottom: 40px;
-    padding: 50px;
-}
-#about-text-2{
-    margin-bottom: 100px;
-    margin-top: 50px;
-}
 #footer-gallery{
     background-color: #BFC2B4;
     margin-top: 40px;
