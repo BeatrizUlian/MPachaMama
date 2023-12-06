@@ -222,7 +222,7 @@ transition: 1.2s;
        
     }
     .button-green-2{
-            width: 400px;
+            width: 340px;
             height: 40px;
             padding-top: 15px;
             font-family: "Nunito", sans-serif;
@@ -819,7 +819,7 @@ footer{
 
 @media (max-width: 600px){
     footer{
-        gap: 100px;
+        gap: 50px;
         padding-left: 40px;
     }
 }
@@ -1209,11 +1209,11 @@ table {
     }
 
     .input-larger {
-        width: 400px;
+        width: 340px;
     }
     
     .input-smaller {
-        width: 170px;
+        width: 140px;
     }
     
     
