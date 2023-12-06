@@ -530,7 +530,7 @@ max-width: 120%;
         font-size: 14px;
     }
    .about-image{
-    display:none;
+    width: 50%;
    }
     .map {
         position: static; /* Change position to static for better responsiveness */
@@ -1071,7 +1071,7 @@ table {
         flex-direction: column; /* Change to column layout on smaller screens */
         align-items: center; /* Center children in column layout */
         gap: 0px;
-        padding: 30px;
+        padding: 0px;
     
     }
     #water{
@@ -1080,10 +1080,7 @@ table {
     .colored-svg{
         width: 50%;
     }
-    .structure-page-list{
-        width: 100vh;
-    
-    }
+  
     td, th {
         font-size: 14px;
         border-bottom: 1px solid #BB8B38;
@@ -1097,7 +1094,7 @@ table {
     }
   
     .structure-page{
-        width: 100vh;
+        width: 100%;
         box-sizing: border-box;
      
     }
