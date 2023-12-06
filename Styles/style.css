@@ -820,7 +820,7 @@ footer{
 @media (max-width: 600px){
     footer{
         gap: 50px;
-        padding-left: 40px;
+        padding-left: 10px;
     }
 }
 
@@ -1195,8 +1195,6 @@ table {
     form{
         font-size: 16px;
         margin: auto;
-        padding-right: 60px;
-        margin-bottom: 40px;
     }
 
     input{
@@ -1205,6 +1203,7 @@ table {
 
     .input-larger {
         width: 340px;
+        padding-left:20px;
     }
     
     .input-smaller {
