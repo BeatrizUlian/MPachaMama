@@ -827,7 +827,7 @@ footer{
         padding-left: 10px;
     }
     #footer-gallery{
-        gap: 50px;
+        gap: 30px;
         padding-left: 10px;
     }
 }
@@ -1179,6 +1179,10 @@ table {
     }
 .attractions-page{
     padding: 10px;
+}
+
+#load-more-btn{
+    margin-left: 50px;
 }
 }
 /* ------------------------------------------------- RESERVE PAGE */
