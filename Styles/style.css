@@ -1067,6 +1067,11 @@ table {
 
 /* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
+    table {
+        width: 370px; /* Sum of the specified column widths */
+    
+    
+      }
     .structure-page-list-2 {
         flex-direction: column; /* Change to column layout on smaller screens */
         align-items: center; /* Center children in column layout */
@@ -1076,6 +1081,12 @@ table {
         width: 50%;
     
     }
+    td, th {
+        height: 50px;
+
+      }
+      
+  
     #water{
         width: 30%;
     }
@@ -1085,8 +1096,7 @@ table {
   
     td, th {
         font-size: 14px;
-        border-bottom: 1px solid #BB8B38;
-    
+     
     }
 
     .structure-page-list-2 div {
