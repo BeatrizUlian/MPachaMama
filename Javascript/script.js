@@ -90,6 +90,7 @@ function changeImageGallery(step) {
     });
   });
 
+  //TYPE TITLE
   document.addEventListener("DOMContentLoaded", function () {
     // Get the title and button elements
     var imgTitle = document.getElementById("img-title");
@@ -139,7 +140,7 @@ function changeImageGallery(step) {
   
     // Check if elements exist before proceeding
     if (mobileImgTitle && mobileImgButton) {
-      mobileImgTitle.style.fontSize = "26px"; // Adjust the font size for mobile screens
+      mobileImgTitle.style.fontSize = "24px"; // Adjust the font size for mobile screens
       mobileImgButton.style.fontSize = "14px"; // Adjust the font size for the button on mobile screens
       mobileImgButton.style.height = "15px";
       mobileImgButton.style.width = "240px";

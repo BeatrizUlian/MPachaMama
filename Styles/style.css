@@ -186,7 +186,7 @@ transition: 1.2s;
     margin-top: 160px; /* Adjust the margin to create space between h1 and a */
     background: #BB8B38;
     height:35px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 16px;
     font-size: 22px;
@@ -475,6 +475,25 @@ max-width: 120%;
 }
 
 
+@media screen and (max-width: 768px) {
+    #img-button{
+        top: 30%;
+        padding-bottom: 12px;
+        padding-top: 8px;
+    }
+
+
+    #img-title{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+}
 
 /* ------------------------- ABOUT */
 
