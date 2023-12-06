@@ -1069,7 +1069,7 @@ table {
 @media screen and (max-width: 768px) {
     table {
         width: 370px; /* Sum of the specified column widths */
-    
+        margin-left: 30px;
     
       }
     .structure-page-list-2 {
@@ -1077,7 +1077,6 @@ table {
         align-items: center; /* Center children in column layout */
         gap: 0px;
         padding: 0px;
-        border: 1px solid red;
         width: 45%;
     
     }
@@ -1086,6 +1085,9 @@ table {
 
       }
       
+      #button-facilities{
+        margin-left: 40px;
+      }
   
     #water{
         width: 30%;
@@ -1100,20 +1102,18 @@ table {
     }
 
     .structure-page-list-2 div {
-        border: 1px solid blue;
         width: 100%; /* Full width for each child on smaller screens */
         margin-bottom: 0px; /* Add some margin between child elements */
     
     }
     .structure-page-list-2 ul{
-        border:1px solid green;
     width: 250px;
+    padding: 4px;
     }
   
     .structure-page{
         width: 100%;
         box-sizing: border-box;
-        border: 1px solid black;
      
     }
     
