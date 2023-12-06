@@ -1072,6 +1072,8 @@ table {
         align-items: center; /* Center children in column layout */
         gap: 0px;
         padding: 0px;
+        border: 1px solid red;
+        width: 50%;
     
     }
     #water{
@@ -1088,14 +1090,20 @@ table {
     }
 
     .structure-page-list-2 div {
+        border: 1px solid blue;
         width: 100%; /* Full width for each child on smaller screens */
-        margin-bottom: 20px; /* Add some margin between child elements */
+        margin-bottom: 0px; /* Add some margin between child elements */
     
+    }
+    .structure-page-list-2 ul{
+        border:1px solid green;
+    width: 250px;
     }
   
     .structure-page{
         width: 100%;
         box-sizing: border-box;
+        border: 1px solid black;
      
     }
     
