@@ -717,6 +717,7 @@ table {
         color: #333;
         cursor: pointer;
         border-radius: 25%;
+        top: 40%;
         padding: 15px;
         background-color: rgba(255, 255, 255, 0.7);
         transition: background-color 0.3s;
@@ -816,9 +817,16 @@ footer{
     margin-bottom: 100px;
     margin-top: 50px;
 }
-
+#footer-gallery{
+    background-color: #BFC2B4;
+    margin-top: 40px;
+}
 @media (max-width: 600px){
     footer{
+        gap: 50px;
+        padding-left: 10px;
+    }
+    #footer-gallery{
         gap: 50px;
         padding-left: 10px;
     }
@@ -1167,9 +1175,11 @@ table {
     
     .attractions-div {
         width: 100%;
-        margin-left: 100px;
+        margin-left: 40px;
     }
-
+.attractions-page{
+    padding: 10px;
+}
 }
 /* ------------------------------------------------- RESERVE PAGE */
 .reserve-page{
@@ -1278,7 +1288,7 @@ table {
     .gallery-page-button-left,
     .gallery-page-button-right {
         position: absolute;
-        top: 40%;
+        top: 30%;
         font-size: 20px;
         background: none;
         border: none;
@@ -1295,12 +1305,14 @@ table {
        
     }
     .bg-about{
-        margin-top: 40px;
+        margin-top: 50px;
 
     }
     .gallery-page{
         margin-top: 0px;
+        margin-bottom: 0px;
     }
+
     .bg-attractions{
         margin-top: 40px;
 
