@@ -222,7 +222,7 @@ transition: 1.2s;
         cursor: pointer;
         display: inline-block;
         text-align: center;
-        margin-left: 70px;
+        margin-left: 50px;
         
        
     }
@@ -557,7 +557,7 @@ max-width: 120%;
         flex-direction: column-reverse;
         width: 100%;
         padding: 10px;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
         margin-top: 0px;
         border: 2px solid red;
         gap: 0px;
@@ -595,7 +595,7 @@ max-width: 120%;
     /* Adjust the width and height for mobile screens */
     .map iframe {
         margin-left: 20px;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         width: 100%; /* Set the iframe width to 100% of its container */
         height: 230px; /* Adjust the desired height for mobile screens */
@@ -642,6 +642,7 @@ hr{
 td{
     font-size: 16px;
 }
+
 .colored-svg{
     max-width: 75%;
 }
