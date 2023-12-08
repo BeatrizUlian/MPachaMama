@@ -650,7 +650,11 @@ table {
     font-size: 16px;
 
   }
+  #table-home {
+    width: 370px; /* Sum of the specified column widths */
+    margin-left: 10px;
 
+  }
   td, th {
     border: none; /* Optional: Adds borders to the cells */
     border-bottom: 2px solid #BB8B38;
