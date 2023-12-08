@@ -713,6 +713,9 @@ table {
     box-sizing: border-box; /* Include padding and border in the total width */
 }
 
+#attraction-img{
+    width: 100%;
+}
 /* Rest of your .card styles */
 
 /* Adjustments for smaller screens */
@@ -863,7 +866,14 @@ input:focus {
 .reserve-info{
     margin-bottom: 10px;
 }
-
+@media (max-width: 600px){
+.reserve-page-home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding-bottom:0px;
+}
+}
 /* ------------------------- FOOTER */
 footer{
  padding-top: 50px;
