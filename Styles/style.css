@@ -441,8 +441,8 @@ max-width: 120%;
 
     }
 
-    #heroimg {
-       
+    .heroimg {
+       height: 100vh;
  content: url('../Images/Mobileheroimg.png'); /* Change to the desired mobile heroimg URL */
  
 }
