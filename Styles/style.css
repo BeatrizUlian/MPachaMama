@@ -717,7 +717,7 @@ table {
 /* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
     #button-green-center{
-        margin-left: 135px;
+        margin-left:0px;
     }
     .card {
         margin: auto;
@@ -783,7 +783,7 @@ table {
         color: #333;
         cursor: pointer;
         border-radius: 25%;
-        top: 40%;
+        top: 640%;
         padding: 15px;
         background-color: rgba(255, 255, 255, 0.7);
         transition: background-color 0.3s;
