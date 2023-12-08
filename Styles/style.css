@@ -869,6 +869,9 @@ input:focus {
     gap: 80px;
     padding-bottom:0px;
 }
+.reserve{
+    padding-bottom: 40px;
+}
 }
 /* ------------------------- FOOTER */
 footer{
