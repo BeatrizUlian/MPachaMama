@@ -252,7 +252,7 @@ transition: 1.2s;
         cursor: pointer;
         display: inline-block;
         text-align: center;
-       
+        margin-top: 50px;
 
 }
     .center{
@@ -664,6 +664,9 @@ table {
 #facilities-img{
     display:none;
 }
+.structure{
+    margin-bottom: 100px; 
+}
 }
 /* ------------------------- ATTRACTIONS */
 /* .card{
@@ -720,8 +723,11 @@ table {
         margin: auto;
         flex: 1 0 100%; /* Make cards take full width on smaller screens */
     }
-}
 
+    #attraction-img{
+        width: 100%;
+}
+}
 
 /* ------------------------- GALLERY */
 .gallery{
