@@ -670,7 +670,7 @@ table {
 .structure{
     margin-bottom: 100px; 
     width: 100%;
-    border: 1px solid red;
+
 }
 }
 /* ------------------------- ATTRACTIONS */
@@ -733,7 +733,7 @@ table {
     .attractions {
         width: 90%;
         margin-left: 40px;
-        border: 1px solid red;
+
     }
 }
 
@@ -796,9 +796,7 @@ table {
         background-color: rgba(255, 255, 255, 0.7);
         transition: background-color 0.3s;
     }
-    .gallery {
-        border: 1px solid red;
-    }
+
     
 }
 
