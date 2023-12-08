@@ -440,9 +440,14 @@ margin-left: 40px;
 max-width: 120%;
 
     }
+
+    #heroimg {
+       
+ content: url('../Images/Mobile-HeroImg.png'); /* Change to the desired mobile heroimg URL */
+ 
 }
 
-
+}
 
 /* ------------------------------------------------- HOME PAGE */
 .img {
@@ -480,7 +485,7 @@ max-width: 120%;
 
 @media screen and (max-width: 768px) {
     #img-button{
-        top: 20%;
+        top: 40%;
         padding-bottom: 12px;
         padding-top: 8px;
         width: 300px;
