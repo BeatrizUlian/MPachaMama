@@ -19,8 +19,9 @@ p{
     margin: 0px;
 }
 #reserve {
-    border: 2px solid #BB8B38;
+    border: 2px solid #1F311F;
     padding: 10px;
+    background-color: white;
     border-radius: 10px;
 }
 .icons:hover{
