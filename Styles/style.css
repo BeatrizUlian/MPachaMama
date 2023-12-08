@@ -222,6 +222,8 @@ transition: 1.2s;
         cursor: pointer;
         display: inline-block;
         text-align: center;
+        margin-left: 70px;
+        
        
     }
     .button-green-2{
@@ -255,7 +257,7 @@ transition: 1.2s;
 }
     .center{
         margin-top: 10px;
-        text-align: left;
+        text-align: center;
     }
 }
 /* ------------------------- HEADER WEBSITE */
