@@ -1260,7 +1260,7 @@ table {
         height: 768px;
         background: #C2B398;
         border-radius: 16px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     } 
     
     .attractions-div {
@@ -1272,7 +1272,21 @@ table {
 }
 
 #load-more-btn{
-    margin-left: 50px;
+    height:35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+    font-size: 22px;
+    cursor:pointer;
+    width: 300px;
+
+    background-color: #2F3A10;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    display: inline-block;
+    text-align: center;
+
+    margin-left: 40px;
 }
 }
 /* ------------------------------------------------- RESERVE PAGE */
