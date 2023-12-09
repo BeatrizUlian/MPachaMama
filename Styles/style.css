@@ -1260,7 +1260,7 @@ table {
         height: 768px;
         background: #C2B398;
         border-radius: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     } 
     
     .attractions-div {
@@ -1286,7 +1286,7 @@ table {
     display: inline-block;
     text-align: center;
 
-    margin-left: 40px;
+    margin-left: 50px;
 }
 }
 /* ------------------------------------------------- RESERVE PAGE */
