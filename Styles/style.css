@@ -186,9 +186,9 @@ transition: 1.2s;
 #img-button{
     margin-top: 160px; /* Adjust the margin to create space between h1 and a */
     background: #BB8B38;
-    height:35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height:55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 16px;
     font-size: 22px;
     color: #1F311F;
