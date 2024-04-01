@@ -136,9 +136,24 @@ margin-left: 50px;}
     }
 }
 /* ------------------------- BUTTONS */
+
+#load-more-btn{
+    height:35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    cursor:pointer;
+    width: 300px;
+
+    background-color: #1F311F;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    display: inline-block;
+    text-align: center;
+
+    margin:auto;
+}
 .button-green{
-
-
 
     height:35px;
     padding-top: 20px;
@@ -514,7 +529,6 @@ max-width: 120%;
 
 .about-description{
     margin-left: 40px;
-    border: 1px solid red;
 }
 
 #about-text{
@@ -1310,7 +1324,7 @@ table {
     margin-right: auto;
     max-width: 1200px;}
 
-
+  
 @media screen and (max-width: 768px) {
     .card-page{
         width:320px;
@@ -1327,23 +1341,7 @@ table {
 .attractions-page{
  margin:auto;}
 
-#load-more-btn{
-    height:35px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 16px;
-    font-size: 22px;
-    cursor:pointer;
-    width: 300px;
 
-    background-color: #2F3A10;
-    font-family: "Nunito", sans-serif;
-    color: white;
-    display: inline-block;
-    text-align: center;
-
-    margin-left: 50px;
-}
 }
 /* ------------------------------------------------- RESERVE PAGE */
 .reserve-page{
