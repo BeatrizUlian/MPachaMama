@@ -171,3 +171,5 @@ function toggleAnswer(answerId) {
     var answer = document.getElementById(answerId);
     answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
 }
+
+
